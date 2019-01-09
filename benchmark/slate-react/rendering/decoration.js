@@ -4,8 +4,8 @@
 const React = require('react')
 const ReactDOM = require('react-dom/server')
 const h = require('../../helpers/h')
-const { Editor } = require('slate')
-const { Editor: EditorComponent } = require('slate-react')
+const { Editor } = require('@gigmade/slate')
+const { Editor: EditorComponent } = require('@gigmade/slate-react')
 
 module.exports.default = function(value) {
   const el = React.createElement(EditorComponent, { value })

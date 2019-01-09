@@ -1,7 +1,7 @@
 {
-  "name": "slate-html-serializer",
+  "name": "@gigmade/slate-html-serializer",
   "description": "An HTML serializer for Slate editors.",
-  "version": "0.7.34",
+  "version": "0.449.0",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "lib/slate-html-serializer.js",
@@ -19,12 +19,12 @@
     "immutable": ">=3.8.1",
     "react": ">=0.14.0",
     "react-dom": ">=0.14.0",
-    "slate": ">=0.32.0"
+    "@gigmade/slate": "^0.449.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.44.10",
-    "slate-hyperscript": "^0.11.25"
+    "@gigmade/slate": "^0.449.0",
+    "@gigmade/slate-hyperscript": "^0.449.0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
@@ -34,7 +34,7 @@
     "react": "React",
     "react-dom": "ReactDOM",
     "react-dom/server": "ReactDOMServer",
-    "slate": "Slate"
+    "@gigmade/slate": "Slate"
   },
   "keywords": [
     "deserialize",
