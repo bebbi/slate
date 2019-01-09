@@ -1,9 +1,9 @@
 {
-  "name": "slate",
-  "description": "A completely customizable framework for building rich text editors.",
-  "version": "0.44.9",
+  "name": "@gigmade/slate",
+  "description": "ianstormtaylor's slate, with workarounds.",
+  "version": "0.449.0",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/bebbi/slate.git",
   "main": "lib/slate.js",
   "module": "lib/slate.es.js",
   "umd": "dist/slate.js",
