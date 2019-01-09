@@ -1,6 +1,6 @@
 import assert from 'assert'
-import { Value } from 'slate'
-import { fixtures } from 'slate-dev-test-utils'
+import { Value } from '@gigmade/slate'
+import { fixtures } from '@gigmade/slate-dev-test-utils'
 
 describe('slate-hyperscript', () => {
   fixtures(__dirname, 'fixtures', ({ module }) => {
