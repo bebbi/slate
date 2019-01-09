@@ -1,6 +1,6 @@
-import { Editor } from 'slate-react'
-import PlaceholderPlugin from 'slate-react-placeholder'
-import { Value } from 'slate'
+import { Editor } from '@gigmade/slate-react'
+import PlaceholderPlugin from '@gigmade/slate-react-placeholder'
+import { Value } from '@gigmade/slate'
 import initialValue from './value.json'
 
 import React from 'react'

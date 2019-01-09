@@ -1,9 +1,9 @@
 import Debug from 'debug'
 import ImmutableTypes from 'react-immutable-proptypes'
 import React from 'react'
-import SlateTypes from 'slate-prop-types'
+import SlateTypes from '@gigmade/slate-prop-types'
 import Types from 'prop-types'
-import { PathUtils } from 'slate'
+import { PathUtils } from '@gigmade/slate'
 
 import Leaf from './leaf'
 

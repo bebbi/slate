@@ -1,6 +1,6 @@
-import Html from 'slate-html-serializer'
-import { Editor, getEventTransfer } from 'slate-react'
-import { Value } from 'slate'
+import Html from '@gigmade/slate-html-serializer'
+import { Editor, getEventTransfer } from '@gigmade/slate-react'
+import { Value } from '@gigmade/slate'
 
 import React from 'react'
 import initialValueAsJson from './value.json'

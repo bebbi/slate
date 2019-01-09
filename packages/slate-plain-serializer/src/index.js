@@ -1,4 +1,4 @@
-import { Block, Mark, Node, Value } from 'slate'
+import { Block, Mark, Node, Value } from '@gigmade/slate'
 import { Set } from 'immutable'
 
 /**
