@@ -2,7 +2,7 @@
 
 import h from '../../../helpers/h'
 import { Set } from 'immutable'
-import { Mark } from 'slate'
+import { Mark } from '@gigmade/slate'
 import PathUtils from '../../../../src/utils/path-utils'
 
 const path = PathUtils.create([0, 0])

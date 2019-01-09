@@ -1,7 +1,7 @@
 {
-  "name": "slate-prop-types",
+  "name": "@gigmade/slate-prop-types",
   "description": "A set of React prop type checkers for Slate editors.",
-  "version": "0.5.32",
+  "version": "0.449.0",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "lib/slate-prop-types.js",
@@ -14,18 +14,18 @@
   ],
   "peerDependencies": {
     "immutable": ">=3.8.1",
-    "slate": ">=0.32.0"
+    "@gigmade/slate": ">=0.449.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.46.1"
+    "@gigmade/slate": "^0.449.0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
   },
   "umdGlobals": {
     "immutable": "Immutable",
-    "slate": "Slate"
+    "@gigmade/slate": "Slate"
   },
   "keywords": [
     "editor",

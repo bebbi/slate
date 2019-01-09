@@ -1,6 +1,7 @@
 import getWindow from 'get-window'
 import invariant from 'tiny-invariant'
-import { Value } from 'slate'
+import { Value } from '@gigmade/slate'
+import { IS_IE, IS_EDGE } from '@gigmade/slate-dev-environment'
 
 import findPoint from './find-point'
 

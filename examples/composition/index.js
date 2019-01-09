@@ -1,5 +1,5 @@
-import { Editor } from 'slate-react'
-import { Value } from 'slate'
+import { Editor } from '@gigmade/slate-react'
+import { Value } from '@gigmade/slate'
 
 import React from 'react'
 import styled from 'react-emotion'
@@ -9,7 +9,7 @@ import insert from './insert.js'
 import special from './special.js'
 import { isKeyHotkey } from 'is-hotkey'
 import { Button, Icon, Toolbar } from '../components'
-import { ANDROID_API_VERSION } from 'slate-dev-environment'
+import { ANDROID_API_VERSION } from '@gigmade/slate-dev-environment'
 
 /**
  * Define the default node type.

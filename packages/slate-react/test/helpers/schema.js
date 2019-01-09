@@ -1,4 +1,4 @@
-import { Schema } from 'slate'
+import { Schema } from '@gigmade/slate'
 
 const schema = Schema.create({
   blocks: {

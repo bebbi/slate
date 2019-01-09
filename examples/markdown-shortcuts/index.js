@@ -1,5 +1,5 @@
-import { Editor } from 'slate-react'
-import { Value } from 'slate'
+import { Editor } from '@gigmade/slate-react'
+import { Value } from '@gigmade/slate'
 
 import React from 'react'
 import initialValueAsJson from './value.json'
