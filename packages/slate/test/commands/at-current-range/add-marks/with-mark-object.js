@@ -2,7 +2,7 @@
 
 import h from '../../../helpers/h'
 
-import { Mark } from 'slate'
+import { Mark } from '@gigmade/slate'
 
 export default function(editor) {
   const marks = []

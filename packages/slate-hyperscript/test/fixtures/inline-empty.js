@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import h from 'slate-hyperscript'
+import h from '@gigmade/slate-hyperscript'
 
 export const input = <inline type="link" />
 

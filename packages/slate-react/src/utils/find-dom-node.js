@@ -1,4 +1,4 @@
-import { Node } from 'slate'
+import { Node } from '@gigmade/slate'
 
 /**
  * Find the DOM node for a `key`.
