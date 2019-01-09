@@ -1,9 +1,9 @@
 {
-  "name": "slate",
-  "description": "A completely customizable framework for building rich text editors.",
-  "version": "0.44.9",
+  "name": "@gigmade/slate",
+  "description": "ianstormtaylor's slate, with workarounds.",
+  "version": "0.449.0",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/bebbi/slate.git",
   "main": "lib/slate.js",
   "module": "lib/slate.es.js",
   "umd": "dist/slate.js",
@@ -26,8 +26,8 @@
     "immutable": ">=3.8.1"
   },
   "devDependencies": {
-    "slate-dev-test-utils": "^0.0.1",
-    "slate-hyperscript": "^0.11.24"
+    "@gigmade/slate-dev-test-utils": "^0.449.0",
+    "@gigmade/slate-hyperscript": "^0.449.0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

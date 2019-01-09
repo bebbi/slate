@@ -79,12 +79,12 @@
     "webpack-dev-server": "^2.11.1"
   },
   "peerDependencies": {
-    "slate": "*",
-    "slate-dev-benchmark": "*",
-    "slate-dev-test-utils": "*",
-    "slate-html-serializer": "*",
-    "slate-plain-serializer": "*",
-    "slate-react": "*"
+    "@gigmade/slate": "*",
+    "@gigmade/slate-dev-benchmark": "*",
+    "@gigmade/slate-dev-test-utils": "*",
+    "@gigmade/slate-html-serializer": "*",
+    "@gigmade/slate-plain-serializer": "*",
+    "@gigmade/slate-react": "*"
   },
   "scripts": {
     "benchmark": "cross-env COMPARE=compare node --expose-gc ./tmp/benchmark/index.js",
@@ -101,6 +101,7 @@
     "open": "open http://localhost:8080",
     "prettier": "prettier --write '**/*.{js,jsx,md,json,css}'",
     "release": "yarn build:production && yarn test && yarn lint && lerna publish && yarn gh-pages",
+    "private-release": "yarn build:production && yarn test && yarn lint && lerna publish",
     "server": "webpack-dev-server --config ./support/webpack/config.js",
     "start": "npm-run-all --parallel --print-label watch server",
     "test": "cross-env BABEL_ENV=test FORBID_WARNINGS=true mocha --require babel-core/register ./packages/*/test/index.js",

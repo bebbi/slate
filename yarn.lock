@@ -7173,6 +7173,7 @@ slash@^1.0.0:
 slate-simulator@^0.4.67:
   version "0.4.67"
   resolved "https://registry.yarnpkg.com/slate-simulator/-/slate-simulator-0.4.67.tgz#9313c84736db1e23d6aebacd536f582b6d54723c"
+  integrity sha512-k1HM0Olv7mUjpwrLgOcnjMorlh9Y6vve/ngsHix1j7lXVfsHFdEkolXPeCy3+HsqW2s1dANc0a7hiOZuw4hc0A==
 
 slice-ansi@1.0.0:
   version "1.0.0"

@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import { Point, Range } from 'slate'
+import { Point, Range } from '@gigmade/slate'
 
 import h from '../../../helpers/h'
 
