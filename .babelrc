@@ -41,7 +41,7 @@
           "module-resolver",
           {
             "alias": {
-              "^(slate.*)": "./packages/\\1/src"
+              "^@gigmade/(slate.*)": "./packages/\\1/src"
             }
           }
         ]

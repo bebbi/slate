@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
-import { Editor } from 'slate-react'
-import { Value } from 'slate'
+import { Editor } from '@gigmade/slate-react'
+import { Value } from '@gigmade/slate'
 
 import React from 'react'
 import faker from 'faker'

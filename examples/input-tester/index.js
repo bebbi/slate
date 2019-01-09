@@ -1,5 +1,5 @@
-import { Editor, findRange } from 'slate-react'
-import { Value } from 'slate'
+import { Editor, findRange } from '@gigmade/slate-react'
+import { Value } from '@gigmade/slate'
 
 import React from 'react'
 import styled from 'react-emotion'

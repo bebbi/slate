@@ -1,7 +1,7 @@
 const { basename, extname, resolve } = require('path')
 const { readdirSync } = require('fs')
-const { resetMemoization } = require('slate')
-const { Suite, Bench } = require('slate-dev-benchmark')
+const { resetMemoization } = require('@gigmade/slate')
+const { Suite, Bench } = require('@gigmade/slate-dev-benchmark')
 
 /**
  * Benchmarks.
