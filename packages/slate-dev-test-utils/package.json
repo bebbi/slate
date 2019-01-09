@@ -1,7 +1,7 @@
 {
-  "name": "slate-dev-test-utils",
+  "name": "@gigmade/slate-dev-test-utils",
   "description": "INTERNAL: A set of utils for Slate's core tests.",
-  "version": "0.0.1",
+  "version": "0.449.0",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "src/index.js",
@@ -10,7 +10,7 @@
     "lib/"
   ],
   "peerDependencies": {
-    "slate": ">=0.35.0"
+    "@gigmade/slate": ">=0.449.0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

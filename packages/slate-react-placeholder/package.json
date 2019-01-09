@@ -1,7 +1,7 @@
 {
-  "name": "slate-react-placeholder",
+  "name": "@gigmade/slate-react-placeholder",
   "description": "A Slate plugin to render a placeholder with React.",
-  "version": "0.1.13",
+  "version": "0.449.0",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "lib/slate-react-placeholder.js",
@@ -14,11 +14,11 @@
   ],
   "peerDependencies": {
     "react": ">=0.14.0",
-    "slate": ">=0.43.6"
+    "@gigmade/slate": ">=0.449.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.44.10",
+    "@gigmade/slate": "^0.449.0",
     "tiny-invariant": "^1.0.1"
   },
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "umdGlobals": {
     "react": "React",
-    "slate": "Slate"
+    "@gigmade/slate": "Slate"
   },
   "keywords": [
     "editor",
