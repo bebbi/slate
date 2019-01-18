@@ -2,7 +2,7 @@
   "name": "@gigmade/slate-dev-test-utils",
   "private": true,
   "description": "INTERNAL: A set of utils for Slate's core tests.",
-  "version": "0.0.1",
+  "version": "0.449.6",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "src/index.js",
