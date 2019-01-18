@@ -1,5 +1,5 @@
 {
-  "name": "slate-hyperscript",
+  "name": "@gigmade/slate-hyperscript",
   "private": true,
   "description": "A hyperscript helper for creating Slate documents.",
   "version": "0.11.24",

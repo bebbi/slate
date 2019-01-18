@@ -1,5 +1,5 @@
 {
-  "name": "slate-dev-environment",
+  "name": "@gigmade/slate-dev-environment",
   "private": true,
   "description": "INTERNAL: A set of environment-related constants for Slate's core.",
   "version": "0.2.1",
