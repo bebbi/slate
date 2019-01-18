@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import h from '@gigmade/slate-hyperscript'
+import h from 'slate-hyperscript'
 
 export const input = <text>word</text>
 

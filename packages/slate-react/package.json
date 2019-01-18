@@ -22,7 +22,7 @@
     "react-immutable-proptypes": "^2.1.0",
     "selection-is-backward": "^1.0.0",
     "@gigmade/slate-base64-serializer": "^0.449.0",
-    "@gigmade/slate-dev-environment": "^0.449.0",
+    "slate-dev-environment": "^0.2.1",
     "@gigmade/slate-hotkeys": "^0.449.0",
     "@gigmade/slate-plain-serializer": "^0.449.0",
     "@gigmade/slate-prop-types": "^0.449.0",
@@ -41,7 +41,7 @@
     "mocha": "^2.5.3",
     "react-test-renderer": "^16.6.3",
     "@gigmade/slate": "^0.449.0",
-    "@gigmade/slate-hyperscript": "^0.449.0"
+    "slate-hyperscript": "^0.11.24"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

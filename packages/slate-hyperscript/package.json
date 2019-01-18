@@ -1,7 +1,8 @@
 {
-  "name": "@gigmade/slate-hyperscript",
+  "name": "slate-hyperscript",
+  "private": true,
   "description": "A hyperscript helper for creating Slate documents.",
-  "version": "0.449.0",
+  "version": "0.11.24",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "lib/slate-hyperscript.js",

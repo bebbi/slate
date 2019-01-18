@@ -1,5 +1,5 @@
-import Plain from '@gigmade/slate-plain-serializer'
-import { Editor } from '@gigmade/slate-react'
+import Plain from 'slate-plain-serializer'
+import { Editor } from 'slate-react'
 
 import React from 'react'
 import CollapseOnEscape from './collapse-on-escape'

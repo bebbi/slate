@@ -1,5 +1,5 @@
 import assert from 'assert'
-import { fixtures } from '@gigmade/slate-dev-test-utils'
+import { fixtures } from 'slate-dev-test-utils'
 import { Node, Editor, Value } from '@gigmade/slate'
 
 const plugins = [

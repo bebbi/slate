@@ -1,5 +1,5 @@
-import { Editor, getEventRange, getEventTransfer } from '@gigmade/slate-react'
-import { Block, Value } from '@gigmade/slate'
+import { Editor, getEventRange, getEventTransfer } from 'slate-react'
+import { Block, Value } from 'slate'
 
 import React from 'react'
 import initialValueAsJson from './value.json'

@@ -1,6 +1,6 @@
-import Plain from '@gigmade/slate-plain-serializer'
-import { Editor, getEventTransfer } from '@gigmade/slate-react'
-import { Value } from '@gigmade/slate'
+import Plain from 'slate-plain-serializer'
+import { Editor, getEventTransfer } from 'slate-react'
+import { Value } from 'slate'
 
 import React from 'react'
 import initialValueAsJson from './value.json'

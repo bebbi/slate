@@ -7,7 +7,7 @@ import {
   IS_IE,
   IS_IOS,
   HAS_INPUT_EVENTS_LEVEL_2,
-} from '@gigmade/slate-dev-environment'
+} from 'slate-dev-environment'
 
 import findNode from '../utils/find-node'
 

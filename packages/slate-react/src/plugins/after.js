@@ -3,7 +3,7 @@ import Debug from 'debug'
 import Hotkeys from '@gigmade/slate-hotkeys'
 import Plain from '@gigmade/slate-plain-serializer'
 import getWindow from 'get-window'
-import { IS_IOS } from '@gigmade/slate-dev-environment'
+import { IS_IOS } from 'slate-dev-environment'
 
 import cloneFragment from '../utils/clone-fragment'
 import findDOMNode from '../utils/find-dom-node'

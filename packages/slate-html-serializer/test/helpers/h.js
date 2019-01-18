@@ -1,4 +1,4 @@
-import { createHyperscript } from '@gigmade/slate-hyperscript'
+import { createHyperscript } from 'slate-hyperscript'
 
 /**
  * Define a hyperscript.

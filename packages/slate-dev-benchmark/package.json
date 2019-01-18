@@ -1,7 +1,8 @@
 {
-  "name": "@gigmade/slate-dev-benchmark",
+  "name": "slate-dev-benchmark",
+  "private": true,
   "description": "INTERNAL: A development-only benchmark tool for Slate's core.",
-  "version": "0.449.0",
+  "version": "0.0.4",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "src/index.js",

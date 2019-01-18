@@ -1,5 +1,5 @@
 import Base64 from '@gigmade/slate-base64-serializer'
-import { IS_IE } from '@gigmade/slate-dev-environment'
+import { IS_IE } from 'slate-dev-environment'
 import TRANSFER_TYPES from '../constants/transfer-types'
 
 /**

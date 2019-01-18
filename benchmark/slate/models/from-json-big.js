@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 
-const { Value } = require('@gigmade/slate')
+const { Value } = require('slate')
 
 module.exports.default = function(json) {
   Value.fromJSON(json)

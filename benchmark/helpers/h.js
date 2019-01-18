@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const { createHyperscript } = require('@gigmade/slate-hyperscript')
+const { createHyperscript } = require('slate-hyperscript')
 
 /**
  * Define a hyperscript.

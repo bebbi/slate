@@ -5,7 +5,7 @@ import findDOMNode from './find-dom-node'
 import getWindow from 'get-window'
 import invariant from 'tiny-invariant'
 import removeAllRanges from './remove-all-ranges'
-import { IS_IE } from '@gigmade/slate-dev-environment'
+import { IS_IE } from 'slate-dev-environment'
 import { Value } from '@gigmade/slate'
 import { ZERO_WIDTH_SELECTOR, ZERO_WIDTH_ATTRIBUTE } from './find-point'
 

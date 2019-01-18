@@ -1,5 +1,5 @@
-import { Editor } from '@gigmade/slate-react'
-import { Value } from '@gigmade/slate'
+import { Editor } from 'slate-react'
+import { Value } from 'slate'
 
 import Prism from 'prismjs'
 import React from 'react'

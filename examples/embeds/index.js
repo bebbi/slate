@@ -1,5 +1,5 @@
-import { Editor } from '@gigmade/slate-react'
-import { Value } from '@gigmade/slate'
+import { Editor } from 'slate-react'
+import { Value } from 'slate'
 
 import React from 'react'
 import Video from './video'
