@@ -1,4 +1,4 @@
-import Point from '../../../../src/models/point'
+import { Point } from '@gigmade/slate'
 
 export const input = {
   point: Point.create({

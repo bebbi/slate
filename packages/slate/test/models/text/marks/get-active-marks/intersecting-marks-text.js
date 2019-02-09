@@ -2,7 +2,7 @@
 
 import h from '../../../../helpers/h'
 import { Set } from 'immutable'
-import Mark from '../../../../../src/models/mark'
+import { Mark } from '@gigmade/slate'
 
 export const input = (
   <text>

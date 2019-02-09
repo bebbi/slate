@@ -1,4 +1,4 @@
-import Operation from '../../../../src/models/operation'
+import { Operation } from '@gigmade/slate'
 
 export const input = {
   type: 'add_mark',
