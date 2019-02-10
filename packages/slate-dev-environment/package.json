@@ -1,7 +1,7 @@
 {
   "name": "@gigmade/slate-dev-environment",
   "description": "INTERNAL: A set of environment-related constants for Slate's core.",
-  "version": "0.449.0",
+  "version": "0.4410.1",
   "license": "MIT",
   "repository": "git://github.com/ianstormtaylor/slate.git",
   "main": "lib/slate-dev-environment.js",
