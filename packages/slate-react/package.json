@@ -13,6 +13,12 @@
     "lib/"
   ],
   "dependencies": {
+    "@gigmade/slate-base64-serializer": "^0.4410.2",
+    "@gigmade/slate-dev-environment": "^0.4410.2",
+    "@gigmade/slate-hotkeys": "^0.4410.2",
+    "@gigmade/slate-plain-serializer": "^0.4410.2",
+    "@gigmade/slate-prop-types": "^0.4410.2",
+    "@gigmade/slate-react-placeholder": "^0.4410.2",
     "debug": "^3.1.0",
     "get-window": "^1.1.1",
     "is-window": "^1.0.2",
@@ -21,27 +27,21 @@
     "prop-types": "^15.5.8",
     "react-immutable-proptypes": "^2.1.0",
     "selection-is-backward": "^1.0.0",
-    "@gigmade/slate-base64-serializer": "^0.4410.2",
-    "@gigmade/slate-dev-environment": "^0.4410.2",
-    "@gigmade/slate-hotkeys": "^0.4410.2",
-    "@gigmade/slate-plain-serializer": "^0.4410.2",
-    "@gigmade/slate-prop-types": "^0.4410.2",
-    "@gigmade/slate-react-placeholder": "^0.4410.2",
     "tiny-invariant": "^1.0.1",
     "tiny-warning": "^0.0.3"
   },
   "peerDependencies": {
+    "@gigmade/slate": "^0.4410.2",
     "immutable": ">=3.8.1",
     "react": ">=0.14.0",
-    "react-dom": ">=0.14.0",
-    "@gigmade/slate": "^0.4410.2"
+    "react-dom": ">=0.14.0"
   },
   "devDependencies": {
+    "@gigmade/slate": "^0.4410.2",
+    "@gigmade/slate-hyperscript": "^0.4410.2",
     "immutable": "^3.8.1",
     "mocha": "^2.5.3",
-    "react-test-renderer": "^16.6.3",
-    "@gigmade/slate": "^0.4410.2",
-    "@gigmade/slate-hyperscript": "^0.4410.2"
+    "react-test-renderer": "^16.6.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

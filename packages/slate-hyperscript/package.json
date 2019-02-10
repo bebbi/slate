@@ -19,8 +19,8 @@
     "@gigmade/slate": "^0.4410.2"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@gigmade/slate": "^0.4410.2"
+    "@gigmade/slate": "^0.4410.2",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
