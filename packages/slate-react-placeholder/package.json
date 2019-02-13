@@ -13,12 +13,12 @@
     "lib/"
   ],
   "peerDependencies": {
-    "react": ">=0.14.0",
-    "@gigmade/slate": "^0.4410.3"
+    "@gigmade/slate": "^0.4410.3",
+    "react": ">=0.14.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
     "@gigmade/slate": "^0.4410.3",
+    "mocha": "^2.5.3",
     "tiny-invariant": "^1.0.1"
   },
   "scripts": {

@@ -13,8 +13,8 @@
     "lib/"
   ],
   "dependencies": {
-    "is-hotkey": "0.1.4",
-    "@gigmade/slate-dev-environment": "^0.4410.3"
+    "@gigmade/slate-dev-environment": "^0.4410.3",
+    "is-hotkey": "0.1.4"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
