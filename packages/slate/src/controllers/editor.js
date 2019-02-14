@@ -586,7 +586,14 @@ function normalizeNodeByPath(editor, path) {
   const { controller } = editor
   let { value } = editor
   let { document } = value
-  let node = document.assertNode(path)
+  let node
+  node = document.getNode(path)
+
+  if (!node) {
+    console.error(`normalizePath cannot find path ${path.join(',')}`)
+    return
+  }
+
   let iterations = 0
   const max = 100 + (node.object === 'text' ? 1 : node.nodes.size)
 
