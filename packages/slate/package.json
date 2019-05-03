@@ -1,7 +1,7 @@
 {
   "name": "@gigmade/slate",
   "description": "ianstormtaylor's slate, with workarounds.",
-  "version": "0.449.0",
+  "version": "0.4601.0",
   "license": "MIT",
   "repository": "git://github.com/bebbi/slate.git",
   "main": "lib/slate.js",
@@ -26,8 +26,8 @@
     "immutable": ">=3.8.1 || >4.0.0-rc"
   },
   "devDependencies": {
-    "@gigmade/slate-dev-test-utils": "^0.449.0",
-    "@gigmade/slate-hyperscript": "^0.449.0"
+    "@gigmade/slate-dev-test-utils": "^0.4601.0",
+    "@gigmade/slate-hyperscript": "^0.4601.0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
